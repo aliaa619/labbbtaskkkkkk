@@ -15,4 +15,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
               - name: welcome to campus
-                run: echo"hello nu"
+                run: echo"hello nu"git
