@@ -3,16 +3,16 @@ on:
     push:
         branches:
             - main
-
+            
 jobs:
     job1:
         runs-on: ubuntu-latest
         steps:
-              -name: welcome
-              run: echo"hello world"
+              - name: welcome
+                run: echo "hello world"
     job2:
-        needs: job1
+        needs : job1
         runs-on: ubuntu-latest
         steps:
               - name: welcome to campus
-                run: echo"hello nu"git
+                run: echo "welcom to nu"
